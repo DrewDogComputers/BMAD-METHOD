@@ -55,6 +55,10 @@ NOTE the build will skip any files with the `.ide.<extension>` - so you can have
     node build-web-agent.js
     ```
 
+   On **Windows**, run the same command in Command Prompt or PowerShell. The
+   script's use of Node.js means no changes are required; it handles Windows
+   paths automatically.
+
 The script will log its progress, including discovered source directories, any issues found (like duplicate base filenames), and the output files being generated.
 
 ### Output

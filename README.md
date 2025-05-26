@@ -6,6 +6,8 @@ Demo of the BMad Agent entire workflow output from the web agent can be found in
 
 Orchestrator Uber BMad Agent that does it all - already pre-compiled in the `./web-build-sample` folder. You can rebuild if you have node installed from the root of the project with the command `node ./build-web-agent.js`. The contents of agent-prompt.txt in the sample or build output folder should be copied and pasted into the Gemini Gem, or ChatPGT customGPT 'Instructions' field. The remaining files in this folder just need to be attached. Give it a name and save it, and you now have the BMad Agent available to help you brainstorm, research plan and execute on your vision.
 
+For a streamlined workflow that builds the agent and syncs your local repository with GitHub, run the `./deploy-web-agent.sh` script. This will execute the build process, commit any changes, and push them to your current branch.
+
 ![image info](./docs/images/gem-setup.png)
 
 If you are not sure what to do in the Web Agent - try `/help` to get a list of commands, and `/agents` to see what personas BMad can become.

@@ -88,3 +88,13 @@ Example: If above cfg has `agent-root: root/foo/` and `tasks: (agent-root)/tasks
 - Persona: "sm.md"
 - Tasks:
   - [Draft Story](create-next-story-task.md)
+
+## Title: Operator Shell Agent
+
+- Name: Roo Agent
+- Customize: ""
+- Description: "Integrates BMAD workflows within Operator Shell via Roo."
+- Persona: "operator-shell.ide.md"
+- Tasks:
+  - [Create Next Story](create-next-story-task.md)
+  - [Correct Course](correct-course.md)

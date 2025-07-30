@@ -3,7 +3,8 @@ import os
 import re
 from collections import defaultdict
 
-BLOCK_RE = re.compile(r"^```(.*)")
+# Match code fence lines that may be prefixed with '+' characters from diff
+BLOCK_RE = re.compile(r"^\+*```(.*)")
 FILE_HINT_RE = re.compile(r"^[+]*\+\+\+\s+(.*)")
 
 

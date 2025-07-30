@@ -17,4 +17,4 @@ This repository stores a terminal log (`warp_terminal_log.txt`) that must be pro
 
 - Keep commits focused and descriptive.
 - Maintain code formatting using your preferred tools.
-- If you modify any part of `bmad-agent/`, run `node build-web-agent.js` to rebuild before committing.
+ignore `bmad'
